@@ -6,11 +6,6 @@
 }
 
 /* HEADER */
-header {
-    /* debug */
-    width: 100%;
-    height: 500px;
-}
 .nav-container {
     display: flex;
     justify-content: center;
@@ -63,7 +58,7 @@ header {
     align-items: center;
     background-color: blue;
     /* debug */
-    height: 100%;
+    height: 400px;
 }
 .header-blu-container .pink-rect {
     background-color: pink;
@@ -73,4 +68,9 @@ header {
     height: 350px;
 }
 
-
+/* MAIN */
+.section-white {
+    background-color: brown;
+    /* debug */
+    height: 500px;
+}
