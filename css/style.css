@@ -73,8 +73,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.small {
     /* debug */
     height: 500px;
+}
+
+.large {
+    /* debug */
+    height: 700px;
 }
 
 .blue-pink-container {
@@ -100,10 +108,17 @@
     width: 40%;
 }
 
-.section-grey-small {
+.section-grey {
     background-color: grey;
 }
 
-.section-grey-small .blue-pink-container {
+.section-grey.small .blue-pink-container {
     flex-direction: row-reverse;
+}
+
+.green-item {
+    background-color: #228B22;
+    /* debug */
+    width: 80%;
+    height: 600px;
 }
