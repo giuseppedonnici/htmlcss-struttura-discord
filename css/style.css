@@ -128,17 +128,18 @@
 .section-black {
     background-color: #23272A;
     padding-bottom: 20px;
+    border-bottom: 1px solid white;
 }
 
 .footer-container {
     display: flex;
-    background-color: red;
     /* debug */
     width: 80%;
     height: 450px;
 }
 
 .footer-item-grow {
+    background-color: #F08080;
     flex-grow: 2;
     border: 1px dashed black;
 }
@@ -148,4 +149,28 @@
     background-color: #1E90FF;
     flex-grow: 1;
     
+}
+
+.section-black-smallest {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* debug */
+    height: 100px;
+}
+
+.footer-container-celestial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7FFFD4;
+    /* debug */
+    width: 80%;
+    height: 80px;
+}
+
+.footer-logo, .footer-button {
+    padding: 5px;
+    border-style: dashed;
 }
