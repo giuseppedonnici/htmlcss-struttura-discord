@@ -56,12 +56,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #00008B;
     /* debug */
     height: 400px;
 }
 .header-blu-container .pink-rect {
-    background-color: pink;
+    background-color: #EE82EE;
     border: 1px dashed black;
     /* debug */
     width: 60%;
@@ -69,8 +69,41 @@
 }
 
 /* MAIN */
-.section-white {
-    background-color: brown;
+.section-white, .section-grey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* debug */
     height: 500px;
+}
+
+.blue-pink-container {
+    display: flex;
+    /* debug */
+    width: 80%;
+    height: 400px;
+}
+
+.blue-item {
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    /* debug */
+    width: 60%;
+    height: 100%;
+}
+
+.pink-item {
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+    /* debug */
+    height: 100%;
+    width: 40%;
+}
+
+.section-grey-small {
+    background-color: grey;
+}
+
+.section-grey-small .blue-pink-container {
+    flex-direction: row-reverse;
 }
